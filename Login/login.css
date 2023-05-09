@@ -1,0 +1,216 @@
+.login {
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
+  background-color: white;
+  border-radius: 10px;
+  width: 95%;
+}
+.CoderBlog {
+  justify-content: center;
+}
+
+.coderBlogLogo {
+  justify-content: center;
+}
+
+.coderBlogIcon {
+  font-size: 60px;
+  margin-right: 10px;
+}
+.coderBlogLogo h1 {
+  margin-top: 5px;
+}
+
+.coderBlogtitle {
+  text-align: center;
+  font-size: 20px;
+  margin: 35px auto 30px;
+}
+
+.login .loginDiv,
+.login .registerDiv {
+  box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
+  padding: 10px 10px 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 280px;
+}
+
+.login .loginDiv h1 {
+  margin: 1px auto 30px;
+}
+
+.loginForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login .loginForm label {
+  font-size: 18px;
+  /* margin: 2px; */
+}
+
+.login input {
+  display: block;
+  padding: 15px 5px;
+  border: none;
+  border-bottom: 2px dotted rgb(252, 96, 6);
+  font-size: 18px;
+  margin-top: 10px;
+  height: 25px;
+  width: 235px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+.login input:focus {
+  border: 2px solid rgb(252, 96, 6);
+  outline: none;
+}
+
+.loginDiv button,
+.registerDiv button {
+  padding: 10px;
+  width: 250px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(252, 96, 6);
+  border: 0.1px solid rgb(252, 96, 6);
+  border-radius: 8px;
+  color: white;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.login .loginDiv a,
+.login .registerDiv a {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+/* Responsive code */
+@media Screen and (min-width: 375px) {
+  .login .loginDiv,
+  .login .registerDiv {
+    width: 320px;
+    padding: 10px 30px 15px;
+  }
+}
+@media Screen and (min-width: 425px) {
+  .login .loginDiv,
+  .login .registerDiv {
+    width: 330px;
+    padding: 10px 35px 15px;
+    margin-top: 60px;
+  }
+}
+
+@media Screen and (min-width: 768px) {
+  .login {
+    display: flex;
+    padding: 60px 10px;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .coderBlogtitle {
+    margin-top: 10px;
+  }
+
+  .login .loginDiv {
+    width: 300px;
+    padding: 10px 15px;
+  }
+  .login .registerDiv {
+    margin-top: 0;
+  }
+}
+
+@media Screen and (min-width: 1024px) {
+  .login {
+    padding: 60px 20px;
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .login .loginDiv,
+  .login .registerDiv {
+    width: 450px;
+    padding: 10px 35px 15px;
+    margin-right: 5px;
+  }
+
+  .login .loginDiv h1 {
+    margin-top: 10px;
+  }
+
+  .login .loginForm label {
+    font-size: 18px;
+    margin: 2px;
+  }
+
+  .loginDiv input,
+  .registerDiv input {
+    margin-top: 20px;
+    height: 45px;
+    width: 350px;
+  }
+
+  .registerDiv .mb-30 {
+    margin-top: auto;
+  }
+
+  .loginDiv .mb-30 {
+    margin-bottom: 50px;
+  }
+
+  .loginDiv button {
+    padding: 18px;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .registerDiv button {
+    width: 350px;
+    font-size: 20px;
+    padding: 14px;
+  }
+
+  .regLink {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+@media Screen and (min-width: 1440px) {
+  .login {
+    padding: 60px 40px;
+  }
+
+  .coderBlogIcon {
+    font-size: 110px;
+  }
+  .coderBlogLogo h1 {
+    font-size: 62px;
+  }
+
+  .coderBlogtitle {
+    font-size: 26px;
+    margin-top: 5px;
+  }
+
+  .login .loginDiv {
+    margin-right: 15px;
+  }
+
+  .login .loginDiv h1 {
+    margin-bottom: 40px;
+  }
+}
